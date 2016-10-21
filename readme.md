@@ -10,7 +10,7 @@ _Created a "Tracks Suggester that asks the user questions and suggests which cla
 
 * Download our files from Github Repository
 * Open Index.HTML in local browser
-* Alternately, you may view our website directly at ()
+* Alternately, you may view our website directly at (https://jessemckay27.github.io/tracks/)
 
 ## Support and contact details
 
