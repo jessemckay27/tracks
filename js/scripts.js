@@ -5,16 +5,16 @@ var addInputs = function(qOneInput, qTwoInput, qThreeInput, qFourInput, qFiveInp
 var numberCheck = function(result) {
   if (result <= -7) {
     $(".initial-hidden").hide();
-    $("#css").show();
+    $("#css").fadeIn(1000);
   } else if (result > -7 && result <= -3) {
     $(".initial-hidden").hide();
-    $("#ruby").show();
+    $("#ruby").fadeIn(1000);
   } else if (result > -3 && result <= 3) {
     $(".initial-hidden").hide();
-    $("#java").show();
+    $("#java").fadeIn(1000);
   } else if (result > 3 && result <= 6) {
     $(".initial-hidden").hide();
-    $("#php").show();
+    $("#php").fadeIn(1000);
   } else {
     $(".initial-hidden").hide();
     $("#c-sharp").show();
@@ -34,15 +34,8 @@ $(document).ready(function(){
 
     if ($('input[name="question1"]:checked').length > 0 && $('input[name="question2"]:checked').length > 0 && $('input[name="question3"]:checked').length > 0 && $('input[name="question4"]:checked').length > 0 && $('input[name="question5"]:checked').length > 0) {
       numberCheck(result);
-
     } else {
-      alert("Please answer all of the questions before submitting.");
+      alert("Please answer all questions before submitting.");
     }
-
-    $("button").click(function(){
-      $("body").addClass("opacity");
-    });
-
-
   });
 });

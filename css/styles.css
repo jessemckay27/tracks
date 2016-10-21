@@ -2,10 +2,6 @@ body {
   background-color: #f5f5f5;
 }
 
-.opacity {
-  opacity: .2;
-}
-
 img#logo {
   height: 70px;
   float: right;
@@ -55,4 +51,8 @@ p#instructions {
   font-weight: bold;
   font-size: 1.1em;
   margin-bottom: 8px;
+}
+
+.opacity {
+  opacity: .2;
 }
