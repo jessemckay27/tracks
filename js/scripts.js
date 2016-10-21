@@ -29,14 +29,20 @@ $(document).ready(function(){
     var qThreeInput = parseInt($("input:radio[name=question3]:checked").val());
     var qFourInput = parseInt($("input:radio[name=question4]:checked").val());
     var qFiveInput = parseInt($("input:radio[name=question5]:checked").val());
-    
+
     var result = addInputs(qOneInput, qTwoInput, qThreeInput, qFourInput, qFiveInput);
 
     if ($('input[name="question1"]:checked').length > 0 && $('input[name="question2"]:checked').length > 0 && $('input[name="question3"]:checked').length > 0 && $('input[name="question4"]:checked').length > 0 && $('input[name="question5"]:checked').length > 0) {
       numberCheck(result);
+
     } else {
-      alert("One of more questions has not been answered.");
+      alert("Please answer all of the questions before submitting.");
     }
+
+    $("button").click(function(){
+      $("body").addClass("opacity");
+    });
+
 
   });
 });
