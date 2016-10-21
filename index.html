@@ -12,75 +12,135 @@
       <h1>Epicodus Track Suggester</h1>
       <p>Welcome to the Epicodus Track Suggester. Epicodus is currently offering the following tracks:</p>
       <ul>
-        <li>Ruby / Rails (0-10)</li>
-        <li>PHP / Drupal (11-20)</li>
-        <li>Java / Android (21-30)</li>
-        <li>CSS / Design (31-40)</li>
+        <li>CSS / Design (0-10)</li>
+        <li>Java / Android (11-20)</li>
+        <li>PHP / Drupal (21-30)</li>
+        <li>Ruby / Rails (31-40)</li>
         <li>C# / .NET (41-50)</li>
       </ul>
       <p>Please answer the following questions.  Your answers will help us suggest the track which fits you best.</p>
       <form id="questions">
-        <div class="question-group">
-          <h3>Which type of coding are you most interested in learning?</h3>
+        <div>
+          <p>I want to focus on learning 'front end' programming languages.</p>
           <div class="radio">
-            <label><input type="radio" name="question1" value ="1">Front End</label>
+            <label><input type="radio" name="question1" value ="-2">Strongly Agree</label>
           </div>
           <div class="radio">
-            <label><input type="radio" name="question1" value ="1">Front End</label>
+            <label><input type="radio" name="question1" value ="-1">Agree</label>
           </div>
           <div class="radio">
-            <label><input type="radio" name="question1" value ="1">Front End</label>
-          </div>
-        </div> <!-- Question #1 -->
-        <div class="question-group">
-          <p>Which type of coding are you most interested in learning?</p>
-          <div class="radio">
-            <label><input type="radio" name="question1" value ="1">Front End</label>
+            <label><input type="radio" name="question1" value ="0">Neutral</label>
           </div>
           <div class="radio">
-            <label><input type="radio" name="question1" value ="1">Front End</label>
+            <label><input type="radio" name="question1" value ="1">Disagree</label>
           </div>
           <div class="radio">
-            <label><input type="radio" name="question1" value ="1">Front End</label>
+            <label><input type="radio" name="question1" value ="2">Strongly Disagree</label>
           </div>
-        </div> <!-- Question #2 -->
-        <div class="question-group">
-          <p>Which type of coding are you most interested in learning?</p>
+        </div>
+
+        <div>
+          <p>I want to focus on learning 'back end' programming languages.</p>
           <div class="radio">
-            <label><input type="radio" name="question1" value ="1">Front End</label>
-          </div>
-          <div class="radio">
-            <label><input type="radio" name="question1" value ="1">Front End</label>
+            <label><input type="radio" name="question2" value ="2">Strongly Agree</label>
           </div>
           <div class="radio">
-            <label><input type="radio" name="question1" value ="1">Front End</label>
-          </div>
-        </div> <!-- Question #3 -->
-        <div class="question-group">
-          <p>Which type of coding are you most interested in learning?</p>
-          <div class="radio">
-            <label><input type="radio" name="question1" value ="1">Front End</label>
+            <label><input type="radio" name="question2" value ="1">Agree</label>
           </div>
           <div class="radio">
-            <label><input type="radio" name="question1" value ="1">Front End</label>
+            <label><input type="radio" name="question2" value ="0">Neutral</label>
           </div>
           <div class="radio">
-            <label><input type="radio" name="question1" value ="1">Front End</label>
-          </div>
-        </div> <!-- Question #4 -->
-        <div class="question-group">
-          <p>Which type of coding are you most interested in learning?</p>
-          <div class="radio">
-            <label><input type="radio" name="question1" value ="1">Front End</label>
+            <label><input type="radio" name="question2" value ="-1">Disagree</label>
           </div>
           <div class="radio">
-            <label><input type="radio" name="question1" value ="1">Front End</label>
+            <label><input type="radio" name="question2" value ="-2">Strongly Disagree</label>
+          </div>
+        </div>
+
+        <div>
+          <p>I am interested in learning how to design mobile applications.</p>
+          <div class="radio">
+            <label><input type="radio" name="question3" value ="2">Strongly Agree</label>
           </div>
           <div class="radio">
-            <label><input type="radio" name="question1" value ="1">Front End</label>
+            <label><input type="radio" name="question3" value ="1">Agree</label>
           </div>
-        </div> <!-- Question #5 -->
+          <div class="radio">
+            <label><input type="radio" name="question3" value ="0">Neutral</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="question3" value ="-1">Disagree</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="question3" value ="-2">Strongly Disagree</label>
+          </div>
+        </div>
+
+        <div>
+          <p>People who know me well would describe me as a creative person.</p>
+          <div class="radio">
+            <label><input type="radio" name="question4" value ="-2">Strongly Agree</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="question4" value ="-1">Agree</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="question4" value ="0">Neutral</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="question4" value ="1">Disagree</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="question4" value ="2">Strongly Disagree</label>
+          </div>
+        </div>
+
+        <div>
+          <p>I excell at mathematics and logic problems.</p>
+          <div class="radio">
+            <label><input type="radio" name="question5" value ="2">Strongly Agree</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="question5" value ="1">Agree</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="question5" value ="0">Neutral</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="question5" value ="-1">Disagree</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="question5" value ="-2">Strongly Disagree</label>
+          </div>
+        </div>
+
+
+
+
+        <button type="submit" class="btn">Submit</button>
       </form>
+
+      <div class="initial-hidden">
+        <img src="img/ruby.jpeg" alt="A photo of the Ruby on Rails language icons" />
+      </div>
+
+      <div class="initial-hidden">
+        <img src="img/php.jpeg" alt="A photo of the PHP / Drupal language icons" />
+      </div>
+
+      <div class="initial-hidden">
+        <img src="img/java.jpeg" alt="A photo of the Java / Android language icon" />
+      </div>
+
+      <div class="initial-hidden">
+        <img src="img/css.jpeg" alt="A photo of the CSS / Design icon" />
+      </div>
+
+      <div class="initial-hidden">
+        <img src="img/c-sharp.jpeg" alt="A photo of the C Sharp / .NET language icon" />
+      </div>
+
     </div>
   </body>
 </html>
